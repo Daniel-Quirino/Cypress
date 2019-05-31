@@ -1,6 +1,8 @@
 describe('My First Test', function() {
-    it('Gets, types and asserts', function() {
+    it('clicking "type" shows the right headings', function() {
       cy.visit('https://example.cypress.io')
+  
+      cy.pause()
   
       cy.contains('type').click()
   
