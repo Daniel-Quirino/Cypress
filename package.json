@@ -1,15 +1,20 @@
 {
-  "name": "cypress-test",
+  "name": "cypress-testing-project",
   "version": "1.0.0",
-  "description": "Tutorial",
+  "description": "Automated testing with cypress",
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open"
   },
-  "keywords": [],
+  "keywords": [
+    "cypress"
+  ],
   "author": "Daniel Pires Quirino",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^3.3.1"
+  },
+  "dependencies": {
+    "cypress-image-snapshot": "^3.1.1"
   }
 }
