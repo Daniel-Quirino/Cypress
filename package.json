@@ -12,7 +12,7 @@
   "author": "Daniel Pires Quirino",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^3.3.1"
+    "cypress": "^12.11.0"
   },
   "dependencies": {
     "cypress-image-snapshot": "^3.1.1"
